@@ -4245,3 +4245,150 @@
 [2023-09-15T16:33:30.711+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:33:30.711+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-09-15T16:33:30.753+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:33:30.753+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
 [2023-09-15T16:33:30.791+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.143 seconds
+[2023-09-15T16:34:01.677+0000] {processor.py:156} INFO - Started process (PID=11623) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:34:01.678+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:34:01.680+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:34:01.679+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:34:01.726+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:34:01.775+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:34:01.774+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:34:01.844+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:34:01.844+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:34:01.896+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.226 seconds
+[2023-09-15T16:34:32.242+0000] {processor.py:156} INFO - Started process (PID=11687) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:34:32.243+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:34:32.244+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:34:32.244+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:34:32.275+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:34:32.303+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:34:32.303+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:34:32.342+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:34:32.341+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:34:32.375+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.137 seconds
+[2023-09-15T16:35:03.223+0000] {processor.py:156} INFO - Started process (PID=11751) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:35:03.224+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:35:03.225+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:35:03.225+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:35:03.252+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:35:03.281+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:35:03.281+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:35:03.318+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:35:03.317+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:35:03.349+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.130 seconds
+[2023-09-15T16:35:33.519+0000] {processor.py:156} INFO - Started process (PID=11815) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:35:33.521+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:35:33.522+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:35:33.522+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:35:33.554+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:35:33.582+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:35:33.582+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:35:33.621+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:35:33.621+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:35:33.653+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.138 seconds
+[2023-09-15T16:36:03.981+0000] {processor.py:156} INFO - Started process (PID=11879) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:36:03.983+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:36:03.984+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:36:03.984+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:36:04.015+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:36:04.042+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:36:04.042+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:36:04.079+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:36:04.078+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:36:04.115+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.139 seconds
+[2023-09-15T16:36:34.351+0000] {processor.py:156} INFO - Started process (PID=11943) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:36:34.352+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:36:34.354+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:36:34.354+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:36:34.390+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:36:34.419+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:36:34.418+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:36:34.467+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:36:34.467+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:36:34.505+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.159 seconds
+[2023-09-15T16:37:04.827+0000] {processor.py:156} INFO - Started process (PID=12007) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:37:04.828+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:37:04.830+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:37:04.830+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:37:04.982+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:37:05.092+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:37:05.091+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:37:05.162+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:37:05.162+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:37:05.208+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.398 seconds
+[2023-09-15T16:37:35.471+0000] {processor.py:156} INFO - Started process (PID=12071) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:37:35.473+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:37:35.475+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:37:35.475+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:37:35.544+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:37:35.642+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:37:35.641+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:37:35.717+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:37:35.717+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:37:35.789+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.338 seconds
+[2023-09-15T16:38:06.469+0000] {processor.py:156} INFO - Started process (PID=12135) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:38:06.471+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:38:06.472+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:38:06.472+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:38:06.507+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:38:06.549+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:38:06.548+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:38:06.600+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:38:06.600+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:38:06.647+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.182 seconds
+[2023-09-15T16:38:37.065+0000] {processor.py:156} INFO - Started process (PID=12199) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:38:37.066+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:38:37.067+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:38:37.067+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:38:37.097+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:38:37.124+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:38:37.124+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:38:37.161+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:38:37.161+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:38:37.195+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.133 seconds
+[2023-09-15T16:39:07.589+0000] {processor.py:156} INFO - Started process (PID=12263) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:39:07.590+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:39:07.591+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:39:07.591+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:39:07.620+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:39:07.648+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:39:07.648+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:39:07.685+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:39:07.685+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:39:07.719+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.133 seconds
+[2023-09-15T16:39:38.014+0000] {processor.py:156} INFO - Started process (PID=12327) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:39:38.015+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:39:38.017+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:39:38.016+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:39:38.054+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:39:38.086+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:39:38.086+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:39:38.162+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:39:38.161+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:39:38.200+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.190 seconds
+[2023-09-15T16:40:08.562+0000] {processor.py:156} INFO - Started process (PID=12391) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:40:08.563+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:40:08.564+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:40:08.563+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:40:08.592+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:40:08.621+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:40:08.621+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:40:08.661+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:40:08.661+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:40:08.695+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.138 seconds
+[2023-09-15T16:40:38.964+0000] {processor.py:156} INFO - Started process (PID=12455) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:40:38.964+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:40:38.966+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:40:38.965+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:40:38.994+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:40:39.023+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:40:39.023+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:40:39.062+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:40:39.062+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:40:39.092+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.131 seconds
+[2023-09-15T16:41:09.450+0000] {processor.py:156} INFO - Started process (PID=12519) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:41:09.451+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:41:09.453+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:41:09.452+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:41:09.484+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:41:09.514+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:41:09.514+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:41:09.553+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:41:09.553+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:41:09.590+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.144 seconds
+[2023-09-15T16:41:40.321+0000] {processor.py:156} INFO - Started process (PID=12582) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:41:40.323+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:41:40.324+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:41:40.324+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:41:40.352+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:41:40.383+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:41:40.383+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:41:40.429+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:41:40.428+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:41:40.464+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.147 seconds
+[2023-09-15T16:42:10.601+0000] {processor.py:156} INFO - Started process (PID=12646) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:42:10.602+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:42:10.603+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:42:10.603+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:42:10.632+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:42:10.659+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:42:10.659+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:42:10.697+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:42:10.697+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:42:10.735+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.137 seconds
+[2023-09-15T16:42:40.839+0000] {processor.py:156} INFO - Started process (PID=12710) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:42:40.840+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:42:40.841+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:42:40.841+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:42:40.877+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:42:40.907+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:42:40.907+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:42:40.952+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:42:40.952+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:42:40.989+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.154 seconds
+[2023-09-15T16:43:11.184+0000] {processor.py:156} INFO - Started process (PID=12774) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:43:11.185+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:43:11.186+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:43:11.186+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:43:11.214+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:43:11.243+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:43:11.243+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:43:11.283+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:43:11.282+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:43:11.315+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.134 seconds
+[2023-09-15T16:43:42.158+0000] {processor.py:156} INFO - Started process (PID=12838) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:43:42.159+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:43:42.161+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:43:42.160+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:43:42.195+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:43:42.230+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:43:42.230+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:43:42.274+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:43:42.274+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:43:42.313+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.162 seconds
+[2023-09-15T16:44:12.652+0000] {processor.py:156} INFO - Started process (PID=12902) to work on /opt/airflow/dags/songs.py
+[2023-09-15T16:44:12.653+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/songs.py for tasks to queue
+[2023-09-15T16:44:12.655+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:44:12.654+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/songs.py
+[2023-09-15T16:44:12.687+0000] {processor.py:809} INFO - DAG(s) dict_keys(['songs']) retrieved from /opt/airflow/dags/songs.py
+[2023-09-15T16:44:12.721+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:44:12.720+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T16:44:12.771+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:44:12.771+0000] {dag.py:3490} INFO - Setting next_dagrun for songs to 2023-09-16T00:00:00+00:00, run_after=2023-09-17T00:00:00+00:00
+[2023-09-15T16:44:12.813+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/songs.py took 0.164 seconds
