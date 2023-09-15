@@ -1,0 +1,45 @@
+[2023-09-15T16:20:45.068+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: business_question.most_productive_artist manual__2023-09-15T16:20:39.799347+00:00 [queued]>
+[2023-09-15T16:20:45.083+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: business_question.most_productive_artist manual__2023-09-15T16:20:39.799347+00:00 [queued]>
+[2023-09-15T16:20:45.084+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-09-15T16:20:45.114+0000] {taskinstance.py:1350} INFO - Executing <Task(GenericTransfer): most_productive_artist> on 2023-09-15 16:20:39.799347+00:00
+[2023-09-15T16:20:45.122+0000] {standard_task_runner.py:57} INFO - Started process 1427 to run task
+[2023-09-15T16:20:45.126+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'business_question', 'most_productive_artist', 'manual__2023-09-15T16:20:39.799347+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/businesse.py', '--cfg-path', '/tmp/tmpxh2p96my']
+[2023-09-15T16:20:45.128+0000] {standard_task_runner.py:85} INFO - Job 16: Subtask most_productive_artist
+[2023-09-15T16:20:45.193+0000] {task_command.py:410} INFO - Running <TaskInstance: business_question.most_productive_artist manual__2023-09-15T16:20:39.799347+00:00 [running]> on host f8e092322bb9
+[2023-09-15T16:20:45.338+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Febriansyah' AIRFLOW_CTX_DAG_ID='business_question' AIRFLOW_CTX_TASK_ID='most_productive_artist' AIRFLOW_CTX_EXECUTION_DATE='2023-09-15T16:20:39.799347+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-15T16:20:39.799347+00:00'
+[2023-09-15T16:20:45.354+0000] {base.py:73} INFO - Using connection ID 'db_destination' for task execution.
+[2023-09-15T16:20:45.448+0000] {base.py:73} INFO - Using connection ID 'last_destination' for task execution.
+[2023-09-15T16:20:45.549+0000] {generic_transfer.py:77} INFO - Extracting data from db_destination
+[2023-09-15T16:20:45.550+0000] {generic_transfer.py:78} INFO - Executing: 
+ 
+    SELECT "ArtistId", "ArtistName", COUNT("TrackId") as "TotalTrack"
+    FROM "songs"
+    GROUP BY "GenreName", "ArtistId", "ArtistName"
+    ORDER BY "TotalTrack" DESC
+    
+[2023-09-15T16:20:45.562+0000] {base.py:73} INFO - Using connection ID 'db_destination' for task execution.
+[2023-09-15T16:20:45.567+0000] {sql.py:375} INFO - Running statement: 
+    SELECT "ArtistId", "ArtistName", COUNT("TrackId") as "TotalTrack"
+    FROM "songs"
+    GROUP BY "GenreName", "ArtistId", "ArtistName"
+    ORDER BY "TotalTrack" DESC
+    , parameters: None
+[2023-09-15T16:20:45.573+0000] {sql.py:384} INFO - Rows affected: 233
+[2023-09-15T16:20:45.574+0000] {generic_transfer.py:95} INFO - Running preoperator
+[2023-09-15T16:20:45.575+0000] {generic_transfer.py:96} INFO - ['DROP TABLE IF EXISTS question2', '\n        CREATE TABLE question2 (\n        \n        "ArtistId" INT NOT NULL,\n        "ArtistName" VARCHAR,\n        "TotalTrack" NUMERIC(10,2) NOT NULL\n        )\n        ']
+[2023-09-15T16:20:45.585+0000] {base.py:73} INFO - Using connection ID 'last_destination' for task execution.
+[2023-09-15T16:20:45.591+0000] {sql.py:375} INFO - Running statement: DROP TABLE IF EXISTS question2, parameters: None
+[2023-09-15T16:20:45.595+0000] {sql.py:375} INFO - Running statement: 
+        CREATE TABLE question2 (
+        
+        "ArtistId" INT NOT NULL,
+        "ArtistName" VARCHAR,
+        "TotalTrack" NUMERIC(10,2) NOT NULL
+        )
+        , parameters: None
+[2023-09-15T16:20:45.612+0000] {generic_transfer.py:105} INFO - Inserting rows into last_destination
+[2023-09-15T16:20:45.625+0000] {base.py:73} INFO - Using connection ID 'last_destination' for task execution.
+[2023-09-15T16:20:45.729+0000] {sql.py:473} INFO - Done loading. Loaded a total of 233 rows into question2
+[2023-09-15T16:20:45.752+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=business_question, task_id=most_productive_artist, execution_date=20230915T162039, start_date=20230915T162045, end_date=20230915T162045
+[2023-09-15T16:20:45.820+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-09-15T16:20:45.871+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
