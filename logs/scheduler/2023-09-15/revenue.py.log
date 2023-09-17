@@ -4392,3 +4392,437 @@
 [2023-09-15T16:44:12.724+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:44:12.724+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-09-15T16:44:12.772+0000] {logging_mixin.py:149} INFO - [2023-09-15T16:44:12.771+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
 [2023-09-15T16:44:12.811+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.159 seconds
+[2023-09-15T18:17:01.657+0000] {processor.py:156} INFO - Started process (PID=34) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:17:01.658+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:17:01.659+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:17:01.659+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:17:01.699+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:17:01.745+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:17:01.744+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:17:01.800+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:17:01.800+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:17:01.837+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.184 seconds
+[2023-09-15T18:17:32.148+0000] {processor.py:156} INFO - Started process (PID=98) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:17:32.149+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:17:32.150+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:17:32.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:17:32.174+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:17:32.200+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:17:32.200+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:17:32.236+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:17:32.236+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:17:32.266+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.120 seconds
+[2023-09-15T18:18:02.959+0000] {processor.py:156} INFO - Started process (PID=162) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:18:02.960+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:18:02.961+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:18:02.961+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:18:02.987+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:18:03.012+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:18:03.012+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:18:03.153+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:18:03.153+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:18:03.182+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.226 seconds
+[2023-09-15T18:18:33.984+0000] {processor.py:156} INFO - Started process (PID=226) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:18:33.985+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:18:33.986+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:18:33.986+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:18:34.010+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:18:34.035+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:18:34.035+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:18:34.072+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:18:34.072+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:18:34.103+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.123 seconds
+[2023-09-15T18:19:04.562+0000] {processor.py:156} INFO - Started process (PID=290) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:19:04.563+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:19:04.564+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:19:04.564+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:19:04.588+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:19:04.617+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:19:04.617+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:19:04.655+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:19:04.655+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:19:04.686+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.127 seconds
+[2023-09-15T18:19:34.862+0000] {processor.py:156} INFO - Started process (PID=354) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:19:34.863+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:19:34.864+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:19:34.864+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:19:34.888+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:19:34.913+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:19:34.912+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:19:34.950+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:19:34.949+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:19:34.979+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.120 seconds
+[2023-09-15T18:20:05.453+0000] {processor.py:156} INFO - Started process (PID=418) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:20:05.454+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:20:05.455+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:20:05.455+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:20:05.484+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:20:05.512+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:20:05.511+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:20:05.567+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:20:05.567+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:20:05.626+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.176 seconds
+[2023-09-15T18:20:35.837+0000] {processor.py:156} INFO - Started process (PID=482) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:20:35.839+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:20:35.840+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:20:35.840+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:20:35.870+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:20:35.896+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:20:35.896+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:20:35.933+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:20:35.933+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:20:35.962+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.131 seconds
+[2023-09-15T18:21:06.516+0000] {processor.py:156} INFO - Started process (PID=546) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:21:06.517+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:21:06.519+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:21:06.518+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:21:06.547+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:21:06.574+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:21:06.574+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:21:06.607+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:21:06.607+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:21:06.638+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.125 seconds
+[2023-09-15T18:21:37.527+0000] {processor.py:156} INFO - Started process (PID=610) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:21:37.528+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:21:37.530+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:21:37.530+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:21:37.560+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:21:37.588+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:21:37.588+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:21:37.623+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:21:37.623+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:21:37.655+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.130 seconds
+[2023-09-15T18:22:08.043+0000] {processor.py:156} INFO - Started process (PID=674) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:22:08.044+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:22:08.045+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:22:08.045+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:22:08.075+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:22:08.102+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:22:08.102+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:22:08.141+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:22:08.141+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:22:08.179+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.139 seconds
+[2023-09-15T18:22:38.381+0000] {processor.py:156} INFO - Started process (PID=738) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:22:38.385+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:22:38.387+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:22:38.387+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:22:38.431+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:22:38.458+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:22:38.458+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:22:38.493+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:22:38.493+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:22:38.525+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.153 seconds
+[2023-09-15T18:23:08.811+0000] {processor.py:156} INFO - Started process (PID=801) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:23:08.811+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:23:08.813+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:23:08.812+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:23:08.836+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:23:08.860+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:23:08.860+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:23:08.895+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:23:08.894+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:23:08.925+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.117 seconds
+[2023-09-15T18:23:39.390+0000] {processor.py:156} INFO - Started process (PID=865) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:23:39.391+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:23:39.393+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:23:39.392+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:23:39.418+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:23:39.443+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:23:39.443+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:23:39.480+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:23:39.480+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:23:39.511+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.124 seconds
+[2023-09-15T18:24:09.644+0000] {processor.py:156} INFO - Started process (PID=929) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:24:09.646+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:24:09.648+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:24:09.648+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:24:09.706+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:24:09.748+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:24:09.747+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:24:09.791+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:24:09.790+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:24:09.825+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.190 seconds
+[2023-09-15T18:24:40.086+0000] {processor.py:156} INFO - Started process (PID=993) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:24:40.087+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:24:40.088+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:24:40.088+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:24:40.112+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:24:40.138+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:24:40.138+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:24:40.172+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:24:40.172+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:24:40.202+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.120 seconds
+[2023-09-15T18:25:10.514+0000] {processor.py:156} INFO - Started process (PID=1057) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:25:10.515+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:25:10.516+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:25:10.516+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:25:10.539+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:25:10.565+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:25:10.565+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:25:10.600+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:25:10.600+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:25:10.630+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.120 seconds
+[2023-09-15T18:25:40.692+0000] {processor.py:156} INFO - Started process (PID=1121) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:25:40.693+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:25:40.694+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:25:40.694+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:25:40.718+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:25:40.742+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:25:40.742+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:25:40.779+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:25:40.779+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:25:40.811+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.125 seconds
+[2023-09-15T18:26:11.168+0000] {processor.py:156} INFO - Started process (PID=1185) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:26:11.169+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:26:11.170+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:26:11.169+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:26:11.194+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:26:11.221+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:26:11.220+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:26:11.256+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:26:11.256+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:26:11.288+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.126 seconds
+[2023-09-15T18:26:41.333+0000] {processor.py:156} INFO - Started process (PID=1249) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:26:41.334+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:26:41.335+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:26:41.335+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:26:41.362+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:26:41.388+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:26:41.388+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:26:41.425+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:26:41.425+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:26:41.455+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.125 seconds
+[2023-09-15T18:27:11.850+0000] {processor.py:156} INFO - Started process (PID=1313) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:27:11.851+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:27:11.852+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:27:11.852+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:27:11.875+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:27:11.901+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:27:11.900+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:27:11.939+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:27:11.938+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:27:11.970+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.124 seconds
+[2023-09-15T18:27:42.390+0000] {processor.py:156} INFO - Started process (PID=1377) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:27:42.391+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:27:42.393+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:27:42.392+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:27:42.422+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:27:42.450+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:27:42.450+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:27:42.484+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:27:42.483+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:27:42.515+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.129 seconds
+[2023-09-15T18:28:13.028+0000] {processor.py:156} INFO - Started process (PID=1441) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:28:13.029+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:28:13.030+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:28:13.030+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:28:13.056+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:28:13.081+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:28:13.081+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:28:13.118+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:28:13.118+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:28:13.148+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.123 seconds
+[2023-09-15T18:28:43.558+0000] {processor.py:156} INFO - Started process (PID=1506) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:28:43.559+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:28:43.560+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:28:43.560+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:28:43.588+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:28:43.614+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:28:43.613+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:28:43.648+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:28:43.648+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:28:43.682+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.128 seconds
+[2023-09-15T18:29:14.287+0000] {processor.py:156} INFO - Started process (PID=1570) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:29:14.288+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:29:14.289+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:29:14.289+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:29:14.315+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:29:14.341+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:29:14.340+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:29:14.375+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:29:14.375+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:29:14.405+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.121 seconds
+[2023-09-15T18:29:44.604+0000] {processor.py:156} INFO - Started process (PID=1634) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:29:44.605+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:29:44.606+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:29:44.606+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:29:44.630+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:29:44.655+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:29:44.655+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:29:44.690+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:29:44.690+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:29:44.721+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.120 seconds
+[2023-09-15T18:30:15.145+0000] {processor.py:156} INFO - Started process (PID=1698) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:30:15.145+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:30:15.147+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:30:15.147+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:30:15.173+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:30:15.200+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:30:15.199+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:30:15.236+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:30:15.236+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:30:15.272+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.130 seconds
+[2023-09-15T18:30:45.730+0000] {processor.py:156} INFO - Started process (PID=1763) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:30:45.731+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:30:45.734+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:30:45.734+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:30:45.763+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:30:45.865+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:30:45.865+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:30:45.904+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:30:45.904+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:30:45.935+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.210 seconds
+[2023-09-15T18:31:16.463+0000] {processor.py:156} INFO - Started process (PID=1827) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:31:16.463+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:31:16.465+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:31:16.465+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:31:16.494+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:31:16.524+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:31:16.524+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:31:16.569+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:31:16.569+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:31:16.606+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.147 seconds
+[2023-09-15T18:31:46.907+0000] {processor.py:156} INFO - Started process (PID=1891) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:31:46.908+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:31:46.910+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:31:46.910+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:31:46.934+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:31:46.960+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:31:46.960+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:31:46.993+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:31:46.993+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:31:47.024+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.119 seconds
+[2023-09-15T18:32:17.707+0000] {processor.py:156} INFO - Started process (PID=1955) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:32:17.708+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:32:17.710+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:32:17.709+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:32:17.741+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:32:17.769+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:32:17.769+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:32:17.803+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:32:17.803+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:32:17.832+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.131 seconds
+[2023-09-15T18:32:48.452+0000] {processor.py:156} INFO - Started process (PID=2019) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:32:48.453+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:32:48.455+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:32:48.455+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:32:48.490+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:32:48.523+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:32:48.523+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:32:48.569+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:32:48.569+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:32:48.607+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.159 seconds
+[2023-09-15T18:33:18.821+0000] {processor.py:156} INFO - Started process (PID=2083) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:33:18.822+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:33:18.824+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:33:18.824+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:33:18.856+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:33:18.888+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:33:18.887+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:33:18.926+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:33:18.925+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:33:18.960+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.143 seconds
+[2023-09-15T18:33:49.430+0000] {processor.py:156} INFO - Started process (PID=2147) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:33:49.431+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:33:49.433+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:33:49.432+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:33:49.460+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:33:49.486+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:33:49.486+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:33:49.525+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:33:49.525+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:33:49.555+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.129 seconds
+[2023-09-15T18:34:19.864+0000] {processor.py:156} INFO - Started process (PID=2211) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:34:19.865+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:34:19.867+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:34:19.866+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:34:19.896+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:34:19.927+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:34:19.927+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:34:19.963+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:34:19.963+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:34:19.996+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.138 seconds
+[2023-09-15T18:34:50.669+0000] {processor.py:156} INFO - Started process (PID=2275) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:34:50.670+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:34:50.672+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:34:50.672+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:34:50.707+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:34:50.739+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:34:50.739+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:34:50.785+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:34:50.785+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:34:50.825+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.160 seconds
+[2023-09-15T18:35:21.053+0000] {processor.py:156} INFO - Started process (PID=2339) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:35:21.053+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:35:21.055+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:35:21.055+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:35:21.083+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:35:21.110+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:35:21.110+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:35:21.145+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:35:21.145+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:35:21.177+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.128 seconds
+[2023-09-15T18:35:51.480+0000] {processor.py:156} INFO - Started process (PID=2403) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:35:51.481+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:35:51.483+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:35:51.483+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:35:51.510+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:35:51.535+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:35:51.535+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:35:51.572+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:35:51.572+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:35:51.604+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.127 seconds
+[2023-09-15T18:36:22.343+0000] {processor.py:156} INFO - Started process (PID=2467) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:36:22.344+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:36:22.345+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:36:22.345+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:36:22.373+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:36:22.401+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:36:22.401+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:36:22.448+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:36:22.448+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:36:22.495+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.156 seconds
+[2023-09-15T18:36:53.247+0000] {processor.py:156} INFO - Started process (PID=2540) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:36:53.248+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:36:53.250+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:36:53.249+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:36:53.298+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:36:53.355+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:36:53.355+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:36:53.431+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:36:53.430+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:36:53.482+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.239 seconds
+[2023-09-15T18:37:24.018+0000] {processor.py:156} INFO - Started process (PID=2604) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:37:24.019+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:37:24.020+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:37:24.020+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:37:24.044+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:37:24.070+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:37:24.070+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:37:24.104+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:37:24.104+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:37:24.135+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.121 seconds
+[2023-09-15T18:37:54.442+0000] {processor.py:156} INFO - Started process (PID=2668) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:37:54.443+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:37:54.446+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:37:54.445+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:37:54.482+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:37:54.513+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:37:54.513+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:37:54.582+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:37:54.582+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:37:54.628+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.190 seconds
+[2023-09-15T18:38:24.828+0000] {processor.py:156} INFO - Started process (PID=2732) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:38:24.829+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:38:24.831+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:38:24.830+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:38:24.864+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:38:24.889+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:38:24.889+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:38:24.924+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:38:24.923+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:38:24.954+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.130 seconds
+[2023-09-15T18:38:55.818+0000] {processor.py:156} INFO - Started process (PID=2796) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:38:55.819+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:38:55.820+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:38:55.820+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:38:55.848+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:38:55.878+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:38:55.877+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:38:55.915+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:38:55.914+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:38:55.948+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.136 seconds
+[2023-09-15T18:39:26.286+0000] {processor.py:156} INFO - Started process (PID=2860) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:39:26.287+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:39:26.289+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:39:26.288+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:39:26.320+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:39:26.364+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:39:26.364+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:39:26.421+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:39:26.421+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:39:26.456+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.173 seconds
+[2023-09-15T18:39:56.521+0000] {processor.py:156} INFO - Started process (PID=2924) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:39:56.522+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:39:56.524+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:39:56.523+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:39:56.553+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:39:56.582+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:39:56.582+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:39:56.625+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:39:56.625+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:39:56.664+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.146 seconds
+[2023-09-15T18:40:26.801+0000] {processor.py:156} INFO - Started process (PID=2988) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:40:26.803+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:40:26.804+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:40:26.804+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:40:26.839+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:40:26.877+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:40:26.877+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:40:26.936+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:40:26.936+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:40:26.978+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.183 seconds
+[2023-09-15T18:40:57.421+0000] {processor.py:156} INFO - Started process (PID=3052) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:40:57.422+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:40:57.424+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:40:57.423+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:40:57.468+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:40:57.507+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:40:57.506+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:40:57.563+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:40:57.562+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:40:57.604+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.190 seconds
+[2023-09-15T18:41:27.981+0000] {processor.py:156} INFO - Started process (PID=3116) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:41:27.982+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:41:27.983+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:41:27.983+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:41:28.011+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:41:28.037+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:41:28.037+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:41:28.074+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:41:28.074+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:41:28.104+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.127 seconds
+[2023-09-15T18:41:58.547+0000] {processor.py:156} INFO - Started process (PID=3180) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:41:58.547+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:41:58.549+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:41:58.548+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:41:58.575+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:41:58.604+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:41:58.603+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:41:58.639+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:41:58.639+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:41:58.676+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.133 seconds
+[2023-09-15T18:42:28.925+0000] {processor.py:156} INFO - Started process (PID=3244) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:42:28.927+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:42:28.929+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:42:28.928+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:42:28.959+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:42:28.998+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:42:28.998+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:42:29.055+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:42:29.055+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:42:29.090+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.171 seconds
+[2023-09-15T18:42:59.355+0000] {processor.py:156} INFO - Started process (PID=3308) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:42:59.356+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:42:59.357+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:42:59.357+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:42:59.386+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:42:59.417+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:42:59.416+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:42:59.452+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:42:59.452+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:42:59.484+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.133 seconds
+[2023-09-15T18:43:29.902+0000] {processor.py:156} INFO - Started process (PID=3372) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:43:29.903+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:43:29.905+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:43:29.904+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:43:29.929+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:43:29.953+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:43:29.953+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:43:29.988+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:43:29.988+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:43:30.025+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.126 seconds
+[2023-09-15T18:44:00.483+0000] {processor.py:156} INFO - Started process (PID=3436) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:44:00.484+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:44:00.485+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:44:00.485+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:44:00.511+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:44:00.535+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:44:00.535+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:44:00.571+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:44:00.570+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:44:00.604+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.124 seconds
+[2023-09-15T18:44:31.064+0000] {processor.py:156} INFO - Started process (PID=3500) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:44:31.065+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:44:31.066+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:44:31.066+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:44:31.092+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:44:31.125+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:44:31.124+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:44:31.159+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:44:31.158+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:44:31.190+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.130 seconds
+[2023-09-15T18:45:01.489+0000] {processor.py:156} INFO - Started process (PID=3565) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:45:01.490+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:45:01.491+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:45:01.491+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:45:01.518+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:45:01.547+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:45:01.546+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:45:01.584+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:45:01.583+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:45:01.619+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.136 seconds
+[2023-09-15T18:45:32.470+0000] {processor.py:156} INFO - Started process (PID=3629) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:45:32.471+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:45:32.472+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:45:32.472+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:45:32.499+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:45:32.535+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:45:32.535+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:45:32.575+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:45:32.575+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:45:32.608+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.140 seconds
+[2023-09-15T18:46:03.345+0000] {processor.py:156} INFO - Started process (PID=3693) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:46:03.346+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:46:03.348+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:46:03.347+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:46:03.373+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:46:03.399+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:46:03.399+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:46:03.441+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:46:03.440+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:46:03.476+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.134 seconds
+[2023-09-15T18:46:33.569+0000] {processor.py:156} INFO - Started process (PID=3757) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:46:33.570+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:46:33.571+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:46:33.571+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:46:33.597+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:46:33.626+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:46:33.626+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:46:33.661+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:46:33.661+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:46:33.693+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.128 seconds
+[2023-09-15T18:47:04.395+0000] {processor.py:156} INFO - Started process (PID=3821) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:47:04.396+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:47:04.398+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:47:04.397+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:47:04.425+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:47:04.454+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:47:04.453+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:47:04.492+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:47:04.492+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:47:04.522+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.130 seconds
+[2023-09-15T18:47:34.804+0000] {processor.py:156} INFO - Started process (PID=3885) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:47:34.806+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:47:34.807+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:47:34.807+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:47:34.837+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:47:34.873+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:47:34.873+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:47:34.921+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:47:34.921+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:47:34.963+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.162 seconds
+[2023-09-15T18:48:05.360+0000] {processor.py:156} INFO - Started process (PID=3949) to work on /opt/airflow/dags/revenue.py
+[2023-09-15T18:48:05.361+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/revenue.py for tasks to queue
+[2023-09-15T18:48:05.362+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:48:05.362+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/revenue.py
+[2023-09-15T18:48:05.386+0000] {processor.py:809} INFO - DAG(s) dict_keys(['revenue']) retrieved from /opt/airflow/dags/revenue.py
+[2023-09-15T18:48:05.411+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:48:05.411+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-09-15T18:48:05.451+0000] {logging_mixin.py:149} INFO - [2023-09-15T18:48:05.451+0000] {dag.py:3490} INFO - Setting next_dagrun for revenue to 2023-09-15T00:00:00+00:00, run_after=2023-09-16T00:00:00+00:00
+[2023-09-15T18:48:05.482+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/revenue.py took 0.126 seconds
